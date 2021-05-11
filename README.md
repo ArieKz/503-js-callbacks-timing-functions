@@ -151,15 +151,4 @@ Blast off!
 
 2. How could you mimic the setInterval functionality using setTimeout? Use setTimeout to recreate the const kids = setInterval(annoy, 1000); functionality.
 */
-
-let count = 10
-
-const countDown = setInterval(() => {
-  if(count <= 0) {
-    console.log('Blast Off! 🚀🚀')
-    return clearInterval(countDown)
-  } 
-  console.log(count)
-  count--
-}, 1000)
 ```
